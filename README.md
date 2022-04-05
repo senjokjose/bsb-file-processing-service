@@ -4,9 +4,9 @@ Up on receiving a new file it validates that file has been already processed(che
 Process the file, write the data to database, trigger an event to API server to update the distributed cache, start the notification process through API service
 
 ### Technologies used
-Springboot
-JDK 11
-Postgres
+1. Springboot
+2. JDK 11
+3. Postgres
 
 
 ### Assumptions
