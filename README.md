@@ -12,6 +12,4 @@ Process the file, write the data to database, trigger an event to API server to 
 ### Assumptions
 Things are not dockerized
 File downloading from ftp is not implemented yet.
-Upon receiving a BSB full list file, not verifying against the existing record in database. Blindly replace the database with new file. This logic can be revisited if needed
-
-
+Upon receiving a BSB full list file, we are not verifying against the existing records. This logic can be re-visited.
